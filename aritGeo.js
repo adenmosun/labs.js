@@ -12,7 +12,7 @@ file.aritGeo = function (arr) {
      for(var i = 0; i < len - 1; i++)
 {
         if( arr[i + 1] - arr[i] !== diff ) arithmetic = false;
-        if(arr[i + 1] / arr[i] !== div) geometric = false;
+        if(arr[i + 1] / diff !== arr[i]) geometric = false;
 }
     if(arithmetic === true) 
       return "Arithmetic";
