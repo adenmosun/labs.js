@@ -1,6 +1,6 @@
 'use strict';
 
-var fizzBuzz = require('../app/fizzBuzz.js).fizzBuzz;
+var fizzBuzz = require('../app/fizzBuzz.js').fizzBuzz;
 
 describe("Fizz Buzz tests ", function() {
 
