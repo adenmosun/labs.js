@@ -12,15 +12,15 @@ file.aritGeo = function (arr) {
      for(var i = 0; i < len - 1; i++)
 {
         if( arr[i + 1] - arr[i] !== diff ) arithmetic = false;
-        if(arr[i + 1] / diff !== arr[i]) geometric = false;
+        if(arr[i + 1] / arr[i] !== div) geometric = false;
 }
     if(arithmetic === true) 
       return "Arithmetic";
     else if(geometric === true)
       return "Geometric";
-    else if (geometric != true && arithmetic != true)
+    else if (geometric !== true && arithmetic !== true)
       return -1;
 }
 
-}
+
 module.exports = file;
