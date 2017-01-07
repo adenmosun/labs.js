@@ -18,7 +18,7 @@ file.aritGeo = function (arr) {
       return "Arithmetic";
     else if(geometric === true)
       return "Geometric";
-    else
+    else if (geometric != true && arithmetic != true)
       return -1;
 }
 
