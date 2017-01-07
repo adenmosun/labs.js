@@ -14,7 +14,9 @@ file.aritGeo = function (arr) {
         if( arr[i + 1] - arr[i] !== diff ) arithmetic = false;
         if(arr[i + 1] / arr[i] !== div) geometric = false;
 }
-    if(arithmetic === true) 
+    if (arr.length == 0) 
+      return 0;
+    else if(arithmetic === true) 
       return "Arithmetic";
     else if(geometric === true)
       return "Geometric";
