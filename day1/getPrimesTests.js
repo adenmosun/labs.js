@@ -1,6 +1,6 @@
 'use strict';
 
-var getPrimes = require('../app/getPrimes.js').getPrimes;
+var getPrimes = require('./getPrimes.js').getPrimes;
 
 
  describe('Prime numbers are in an array', function () {
