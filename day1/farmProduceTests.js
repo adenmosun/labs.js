@@ -1,7 +1,7 @@
 (function(){
   'use strict';
 
-  var farmProduce = require('../app/farmProduce.js').farmProduce;
+  var farmProduce = require('./farmProduce.js').farmProduce;
   describe("farmProduce: Create a farmProduce, weight and price it", function() {
 
     it("The produce should be a type of `object`, and an instance of the `farmProduce` class", function() {
