@@ -10,7 +10,7 @@ file.farmProduce = function (name, type) {
   this.isHealthy = ((name === 'yam') ? false:  true); // yam is not healthy everything else is.
   this.weight = '0 kg';
   this.cost = function (price) {
-    this.total = (type === 'fruits') ? (price * 2) + ' /kg' : (price * 5) + ' /kg'; // fruits cost 2*price/kg everything else costs 5*price/kg
+    this.total = (type === 'fruits') ? (price * 2) + ' /kg' : (price * 5) + ' /kg'; // fruits cost 2*price/kg everything else costs 5*price/kg.
   return this;
 	}
 }
