@@ -1,9 +1,8 @@
 'use strict'
 var file = {}
 
-
-    file.dataTypes = function (data) {
-	if (data === null || data === undefined) 
+file.dataTypes = function (data) {
+  if (data === null || data === undefined) 
     return 'no value';
   if (typeof (data) === "boolean")
     return data;
