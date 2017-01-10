@@ -1,6 +1,6 @@
 'use strict';
 
-var words = require('../app/wordsCount.js').words;
+var words = require('./wordsCount.js').words;
 
 describe("words()", function() {
   it("counts one word", function() {
