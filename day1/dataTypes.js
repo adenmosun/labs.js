@@ -15,7 +15,7 @@ file.dataTypes = function (data) {
   if (typeof (data) === "string")
     return data.length;
   if (data.constructor === Array && data.length > 2)
-    return Math.max.apply(Math, data);
+    return data[2];
   if (typeof (data) === "function")
     return 'called callback';
 }
