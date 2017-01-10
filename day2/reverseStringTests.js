@@ -1,6 +1,6 @@
 'use strict';
 
-var reverseString = require('../app/reverseString.js').reverseString;
+var reverseString = require('./reverseString.js').reverseString;
 
 
 describe("Produce the reverse order of a word: ", function() {
