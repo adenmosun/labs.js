@@ -28,7 +28,7 @@ Array.prototype.search = function (num) {
   var minIndex = 0;
   var maxIndex = this.length - 1;
   var midIndex;
-  var search = {count: 0, index: midIndex, length: this.length };
+  var search = {count: 0, index: -1, length: this.length };
  
     while (minIndex <= maxIndex) {
     	  midIndex = Math.floor((minIndex + maxIndex) / 2);
@@ -49,6 +49,5 @@ Array.prototype.search = function (num) {
         search.count++;
     }
  
-   search.index = -1;
    return search;
 };
