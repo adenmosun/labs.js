@@ -1,6 +1,6 @@
 'use strict';
 
-require('../app/binarySearch.js');
+require('./binarySearch.js');
 
 
 describe('Binary Search to traverse an ordered list, effectively', function() {
