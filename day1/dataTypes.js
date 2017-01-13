@@ -17,7 +17,7 @@ file.dataTypes = function (data) {
   if (data.constructor === Array && data.length > 2)
     return data[2];
   if (typeof (data) === "function")
-    return 'called callback';
+    return data(true);
 }
 
 
