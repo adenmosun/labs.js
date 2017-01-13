@@ -8,8 +8,8 @@ var revString = '';
   if (string.length === 0) return null;
   for (var i = string.length - 1; i >= 0; i--) {
     revString += string[i]
-      if (string === revString) return true;
-  }
+}
+  if (string === revString) return true;
   return revString;
 }
 
